@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;700&display=swap');
+@import url(https://unpkg.com/@webpixels/css/dist/index.css);
+
+
+:root {
+  --primary-color: #3484F0;
+  --grey: #6c7a89;
+  --surface: rgba(245, 249, 252);
+  --white: #ffffff;
+  --orange: #f27935;
+  --green: #2ecc71;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--surface);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.search-title {
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.search-button {
+  padding: 5px 10px;
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.card {
+  margin: 10px;
+}
+
+.table {
+  padding: 10px;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-body #client_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-orange {
+  background-color: var(--orange);
+}
+
+.btn-light-green {
+  background-color: var(--green);
+  border-color: var(--green);
+}
+
+.centered-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border-control {
+  border-bottom: none;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container .btn {
+  margin-right: 10px;
+}
+
+.btn-grey {
+  background-color: #808080;
+  border-color: #808080;
+}
+
+.logo-circle {
+  width: 40px;
+  height: 40px;
+  background-color: var(--grey);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+  .btn-lightblue {
+    background-color: #add8e6;
+    border-color: #add8e6;
+}
